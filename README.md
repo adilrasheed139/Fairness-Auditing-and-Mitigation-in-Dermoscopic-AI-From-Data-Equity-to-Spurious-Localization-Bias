@@ -42,7 +42,7 @@ This project presents a rigorous fairness audit of a deep learning classifier (E
 | **Figure 3: Calibration Curves** | Predicted probability vs. Fraction of Positives. | Severe miscalibration, particularly for Nevus (`nv`), demonstrating unreliable probability outputs for clinical use. |
 
 **Figure 1: Accuracy by Age Bin for Each Class**
-![Figure 1: Accuracy by Age Bin for Each Class](results/plots/Experiment%20%231%20-%20Accuracy%20by%20age%20Bine%20for%20each%20class.png)
+![Figure 1: Accuracy by Age Bin for Each Class](Experiment%20%231%20-%20Accuracy%20by%20age%20Bine%20for%20each%20class.png)
 
 **Figure 2: False Negative Rate by Sex for Each Class**
 ![Figure 2: False Negative Rate by Sex for Each Class](results/plots/Experiment%20%231%20-%20False%20Negtive%20Rate%20by%20Sex%20for%20each%20class.png)
@@ -70,3 +70,22 @@ This section demonstrates the model's reliance on non-clinical features, such as
 ---
 
 ## 🛠️ Repository Structure
+.
+├── `Fairness Auditing and Mitigation in Dermoscopi.ipynb`  # Complete execution script (model, training, audit)
+├── `README.md`       # (This file)
+├── `HAM10000_metadata.csv`
+
+## 🚀 Future Research Direction (PhD Pitch)
+
+The quantified localization bias proves that current fairness methods are insufficient. This work justifies a novel research trajectory focused on mitigating spurious correlation through:
+
+* **Disentangled Representation Learning:** Developing models to explicitly separate pathological features (the lesion) from confounding features (the background/localization context).
+* **Loss Function Design:** Implementing fairness-aware loss terms that directly penalize performance variance across non-demographic subgroups (localization sites).
+
+---
+
+## 🔗 Links and Resources
+
+* **Full Technical Report:** [Insert Hosted Report Link Here]
+* **Code Repository:** [Insert GitHub Code Link Here]
+* **Dataset:** HAM10000 Skin Cancer MNIST Dataset (Kaggle)
