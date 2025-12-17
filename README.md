@@ -45,10 +45,10 @@ This project presents a rigorous fairness audit of a deep learning classifier (E
 ![Figure 1: Accuracy by Age Bin for Each Class](Experiment%20%231%20-%20Accuracy%20by%20age%20Bine%20for%20each%20class.png)
 
 **Figure 2: False Negative Rate by Sex for Each Class**
-![Figure 2: False Negative Rate by Sex for Each Class](results/plots/Experiment%20%231%20-%20False%20Negtive%20Rate%20by%20Sex%20for%20each%20class.png)
+![Figure 2: False Negative Rate by Sex for Each Class](Experiment%20%232%20-%20False%20Negtive%20Rate%20by%20Sex.png)
 
 **Figure 3: Calibration Curves**
-![Figure 3: Calibration Curves](results/plots/Experiment%20%232%20-%20Calibration%20Curves.png)
+![Figure 3: Calibration Curves](Experiment%20%232%20-%20Calibration%20Curves.png)
 
 ---
 
@@ -62,10 +62,10 @@ This section demonstrates the model's reliance on non-clinical features, such as
 | **Figure 5: Accuracy by Localization** | Overall accuracy across classes by 13 Anatomical Sites. | Accuracy is highly unstable for common lesions (e.g., Nevus accuracy varies $\approx 25\%$ across locations), showing poor generalization. |
 
 **Figure 4: False Negative Rate (FNR) by Anatomical Localization (Hidden Bias)**
-![Figure 4: False Negative Rate (FNR) by Anatomical Localization (Hidden Bias)](results/plots/Experiment%20%233%20-%20False%20Negtive%20Rate%20(FNR)%20By%20Anatomical%20Localization%20(Hidden%20Bias).png)
+![Figure 4: False Negative Rate (FNR) by Anatomical Localization (Hidden Bias)](Experiment%20%233%20-%20False%20Negtive%20Rate%20(FNR)%20By%20Anatomical%20Localization%20(Hidden%20Bias).png)
 
 **Figure 5: Accuracy by Anatomical Localization (Hidden Bias)**
-![Figure 5: Accuracy by Anatomical Localization (Hidden Bias)](results/plots/Experiment%20%233%20-%20Accuracy%20by%20Anatomical%20Localization%20(Hidden%20Bias).png)
+![Figure 5: Accuracy by Anatomical Localization (Hidden Bias)](Experiment%20%233%20-%20Accuracy%20by%20Anatomical%20Localization%20(Hidden%20Bias).png)
 
 ---
 
@@ -86,6 +86,6 @@ The quantified localization bias proves that current fairness methods are insuff
 
 ## 🔗 Links and Resources
 
-* **Full Technical Report:** [Insert Hosted Report Link Here]
-* **Code Repository:** [Insert GitHub Code Link Here]
-* **Dataset:** HAM10000 Skin Cancer MNIST Dataset (Kaggle)
+* **Full Technical Report:** [Hosted Report Link](Fairness%20Auditing%20and%20Mitigation%20in%20Dermoscopic%20AI%20-%20From%20Data%20Equity%20to%20Spurious%20Localization%20Bias.pdf)
+* **Code Repository:** [GitHub Code Link](https://github.com/adilrasheed139/Fairness-Auditing-and-Mitigation-in-Dermoscopic-AI-From-Data-Equity-to-Spurious-Localization-Bias.git)
+* **Dataset:** HAM10000 Skin Cancer MNIST Dataset [Kaggle](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
